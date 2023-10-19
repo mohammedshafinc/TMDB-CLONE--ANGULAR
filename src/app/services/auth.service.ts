@@ -8,7 +8,7 @@ export class AuthService {
 
   constructor(private router: Router) { }
   login(uname :string,pwd :string){
-    if(uname ==='shafin' && pwd === '123'){
+    if(uname ==='shafin' && pwd === '1234'){
       return 200;
     }else{
       return 403;
